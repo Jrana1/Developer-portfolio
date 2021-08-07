@@ -13,7 +13,7 @@ h1{
 .half-width{
      width:50%;
      margin-left:5%;
-     margin-top:5%;
+     
 }
 .half-width img{
     width:80%;
@@ -42,6 +42,7 @@ h1{
     margin-top:20px;
     background-position: right;
     background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 .skill img{
     width:50%;
@@ -49,6 +50,39 @@ h1{
 }
 .half-width2{
     margin-right: 100px;
+}
+.skill1{
+    display:flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.developer{
+   box-shadow:20px 20px 100px indigo;
+   width:40%;
+   margin-right:5%;
+   margin-left:5%;
+   padding-left:5%;
+   padding-right:5%;
+   border-radius: 10px;
+   margin-bottom: 5px;
+   
+}
+#full-stack{
+    border-left:10px solid;
+    border-image:linear-gradient(blue,green);
+    border-image-slice: 1;
+}
+#baby{
+    border-left:10px solid;
+    border-image:linear-gradient(rgb(205, 107, 50),rgb(0, 128, 75));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: black;
+    
 }
 /*.skill a{
     text-decoration: none;
